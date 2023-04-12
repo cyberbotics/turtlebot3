@@ -29,7 +29,7 @@ TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
 
 
 def generate_launch_description():
-    use_rviz = LaunchConfiguration('use_rviz', default='true')
+    use_rviz = LaunchConfiguration('use_rviz', default='false')
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
     map_dir = LaunchConfiguration(
         'map',
